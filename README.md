@@ -59,6 +59,12 @@ Quick health check:
 
 ## Browser Extension Setup
 
+### Firefox (Recommended: AMO)
+
+Install directly from Mozilla Add-ons:
+
+  https://addons.mozilla.org/en-US/firefox/addon/mint-download-manager/
+
 ### Chrome, Chromium, Brave, Edge
 
 1. Open the extensions page:
@@ -82,6 +88,11 @@ Temporary (removed after browser restart):
   /usr/share/mintdm/extension-firefox/manifest.json
 
 Permanent Firefox install requires a signed extension.
+
+Note:
+
+- The AMO release is signed and recommended for normal users.
+- Temporary loading is mainly for local testing and development.
 
 ## Download Categories
 
@@ -120,6 +131,11 @@ Packages are generated in dist.
 - If a site blocks direct fetching, enable cookie forwarding in extension settings.
 - If taskbar progress is missing, use tray icon and progress dialog (fully supported).
 
+## Links
+
+- GitHub repository: https://github.com/mostafijar/mintdm
+- Firefox add-on (AMO): https://addons.mozilla.org/en-US/firefox/addon/mint-download-manager/
+
 ## Uninstall
 
 Debian/Ubuntu/Mint:
@@ -128,4 +144,4 @@ Debian/Ubuntu/Mint:
 
 ## License
 
-Add your license details here (for example: MIT).
+MIT License.
