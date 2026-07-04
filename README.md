@@ -86,22 +86,6 @@ Alternative for local builds:
 
   /usr/share/mintdm/extension
 
-### Firefox
-
-Temporary (removed after browser restart):
-
-1. Open about:debugging#/runtime/this-firefox
-2. Click Load Temporary Add-on
-3. Select:
-
-  /usr/share/mintdm/extension-firefox/manifest.json
-
-Permanent Firefox install requires a signed extension.
-
-Note:
-
-- The AMO release is signed and recommended for normal users.
-- Temporary loading is mainly for local testing and development.
 
 ## Download Categories
 
@@ -151,7 +135,3 @@ Packages are generated in dist.
 Debian/Ubuntu/Mint:
 
   sudo apt remove mintdm
-
-## License
-
-MIT License.
