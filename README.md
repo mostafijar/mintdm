@@ -18,22 +18,6 @@ It captures browser downloads, accelerates file transfers with aria2, and provid
 - Per-download progress dialog with speed, ETA, and connection details
 - Desktop notifications for start, complete, pause, resume, and errors
 
-## Requirements
-
-Core dependencies:
-
-- Python 3
-- GTK 3 bindings (python3-gi, python3-gi-cairo, gir1.2-gtk-3.0)
-- aria2
-- curl
-
-Recommended:
-
-- yt-dlp
-- ffmpeg
-- ayatana appindicator
-- libnotify-bin
-- zenity or kdialog
 
 ## Install
 
