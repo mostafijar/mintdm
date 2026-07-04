@@ -67,16 +67,41 @@ Install directly from Mozilla Add-ons:
 
 ### Chrome, Chromium, Brave, Edge
 
+Download extension package from GitHub Releases:
+
+  https://github.com/mostafijar/mintdm/releases/latest/download/chrome.extension.zip
+
+Install steps:
+
 1. Open the extensions page:
    - Chrome: chrome://extensions
    - Edge: edge://extensions
    - Brave: brave://extensions
 2. Enable Developer mode.
-3. Click Load unpacked.
-4. Select:
+3. Download and extract chrome.extension.zip.
+4. Click Load unpacked.
+5. Select the extracted extension folder (the folder containing manifest.json).
+
+Alternative for local builds:
 
   /usr/share/mintdm/extension
 
+### Firefox
+
+Temporary (removed after browser restart):
+
+1. Open about:debugging#/runtime/this-firefox
+2. Click Load Temporary Add-on
+3. Select:
+
+  /usr/share/mintdm/extension-firefox/manifest.json
+
+Permanent Firefox install requires a signed extension.
+
+Note:
+
+- The AMO release is signed and recommended for normal users.
+- Temporary loading is mainly for local testing and development.
 
 ## Download Categories
 
@@ -119,9 +144,14 @@ Packages are generated in dist.
 
 - GitHub repository: https://github.com/mostafijar/mintdm
 - Firefox add-on (AMO): https://addons.mozilla.org/en-US/firefox/addon/mint-download-manager/
+- Chrome extension package: https://github.com/mostafijar/mintdm/releases/latest/download/chrome.extension.zip
 
 ## Uninstall
 
 Debian/Ubuntu/Mint:
 
   sudo apt remove mintdm
+
+## License
+
+MIT License.
