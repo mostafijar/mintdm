@@ -71,10 +71,6 @@ Install steps:
 4. Click Load unpacked.
 5. Select the extracted extension folder (the folder containing manifest.json).
 
-Alternative for local builds:
-
-  /usr/share/mintdm/extension
-
 
 ## Download Categories
 
